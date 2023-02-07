@@ -16,6 +16,12 @@
     </picture>
     <h1>Reproduzindo Áudio</h1>
     <p>Vamos aprender a reproduzir áudio em HTML5. </p>
-    <audio src="midia/sertanejo.mp3" controls autoplay></audio> 
+  <audio preload="auto" controls>
+    <source src="midia/sertanejo.mp3" type="audio/mpeg">
+    <source src="midia/sertanejo.ogg" type="audio/ogg">
+    <source src="midia/sertanejo.wav" type="audio/wav">
+
+
+  </audio>
 </body>
 </html>
